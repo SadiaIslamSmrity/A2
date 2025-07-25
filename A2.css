@@ -112,3 +112,37 @@ body{
 .lily button:hover{
     background-color: brown;
 }
+/* plantsLover */
+.three{
+    display: flex;
+    margin: 8rem;
+    justify-content: center ;
+    justify-content: space-between;
+}
+ .imageCont{
+    position: relative;
+    display: inline-block;
+ }
+ .mainimg{
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+ .badge{
+    position: absolute;
+    top: -7rem;
+    right: -7rem;
+    width: 15rem;
+    z-index: 10;
+ }
+.lover{
+    width: 45%;
+}
+.loverBig{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.point{
+    font-size: 1.5rem;
+    color: grey
+}
