@@ -233,3 +233,44 @@ body{
     color: white;
     font-size: 1.5rem;
 }
+/* join */
+.flower{
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+}
+.user input{
+    height: 2rem;
+    width: 30rem;
+    background-color: white;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+}
+.user button{
+    height: 2.4rem;
+    width: 8rem;
+    background-color: rgb(255, 115, 0);
+     box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.user button:hover{
+    background-color: brown;
+}
