@@ -274,3 +274,45 @@ body{
 .user button:hover{
     background-color: brown;
 }
+/* footer */
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin: 8rem;
+}
+.indulge3{
+    width: 65%;
+    font-size: 1.5rem;
+    color: grey;
+}
+.col2ul{
+    list-style: none;
+}
+.col2ul li{
+    padding: 1rem;
+    color: gray;
+}
+.col2ul a, .col3ul a{
+    color: gray;
+    text-decoration: none;
+}
+.col3ul{
+    list-style: none;
+}
+.col3ul li{
+    padding: 1rem;
+    color: gray;
+}
+.col4ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.col4ul li{
+    padding: 1rem;
+}
+.col2ul li, .col3ul li{
+    font-size: 1.5rem;
+}
